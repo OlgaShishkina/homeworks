@@ -1,0 +1,63 @@
+body {
+margin: auto;
+background-color: #f9f9f9;
+}
+.header-title {
+text-align: center;
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 36px;
+font-weight: 400;
+margin-bottom: 125px;
+padding-top: 125px;
+}
+.main {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+align-content: stretch;
+flex-wrap: wrap;
+padding-bottom: 105px;
+background-color: #f9f9f9;
+}
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 470px;
+  width: 265px;     
+}
+  .main-block__image {
+    max-width: 265px;
+    max-height: 210px;
+    vertical-align: middle;
+    background-color: #ffffff; 
+  }
+  .main-block__name {
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .main-block__price {
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .main-block__button {
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1px;
+  background-color:#f9f9f9;
+  color: #23bac1;;
+  border: 1px solid #23bac1; ;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width:200px;
+  height: 55px;
+  }   
